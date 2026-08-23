@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cmake Msvc"
+  short_description: "CMake presets for MSVC + Ninja + clang-cl, generator expressi..."
+  default_prompt: "Use $cmake-msvc to help with this workflow."
+policy:
+  allow_implicit_invocation: true

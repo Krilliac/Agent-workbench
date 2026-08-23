@@ -1,0 +1,6 @@
+interface:
+  display_name: "Doc Drift"
+  short_description: "Detect divergence between code and docs (README, CHANGELOG, C..."
+  default_prompt: "Use $doc-drift to help with this workflow."
+policy:
+  allow_implicit_invocation: true

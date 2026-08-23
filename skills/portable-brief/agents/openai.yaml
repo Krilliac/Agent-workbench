@@ -1,0 +1,6 @@
+interface:
+  display_name: "Portable Brief"
+  short_description: "Produce a single-file 'cheaper-model brief' - a concentrated..."
+  default_prompt: "Use $portable-brief to help with this workflow."
+policy:
+  allow_implicit_invocation: true

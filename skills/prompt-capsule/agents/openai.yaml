@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Capsule"
+  short_description: "Package and benchmark compact Claude prompts"
+  default_prompt: "Use $prompt-capsule to package this task and compare text versus image token usage."

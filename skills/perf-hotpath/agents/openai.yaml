@@ -1,0 +1,6 @@
+interface:
+  display_name: "Perf Hotpath"
+  short_description: "Analyze and optimize C++ hot paths in a game engine -- cache..."
+  default_prompt: "Use $perf-hotpath to help with this workflow."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cpp Crash Triage"
+  short_description: "Windows C++ crash dump analysis with procdump, WinDbg, ASAN,..."
+  default_prompt: "Use $cpp-crash-triage to help with this workflow."
+policy:
+  allow_implicit_invocation: true

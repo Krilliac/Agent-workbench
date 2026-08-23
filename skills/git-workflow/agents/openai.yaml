@@ -1,0 +1,6 @@
+interface:
+  display_name: "Git Workflow"
+  short_description: "Branch, PR, rebase, and merge patterns for the engine and ot..."
+  default_prompt: "Use $git-workflow to help with this workflow."
+policy:
+  allow_implicit_invocation: true

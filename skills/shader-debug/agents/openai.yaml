@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shader Debug"
+  short_description: "HLSL / SPIR-V / GLSL shader debugging with RenderDoc, PIX for..."
+  default_prompt: "Use $shader-debug to help with this workflow."
+policy:
+  allow_implicit_invocation: true

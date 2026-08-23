@@ -1,0 +1,6 @@
+interface:
+  display_name: "Memory Hunt"
+  short_description: "Track down C++ memory leaks, corruption, and heap misuse with..."
+  default_prompt: "Use $memory-hunt to help with this workflow."
+policy:
+  allow_implicit_invocation: true

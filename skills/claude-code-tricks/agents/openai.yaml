@@ -1,0 +1,6 @@
+interface:
+  display_name: "Claude Code Tricks"
+  short_description: "Meta-skill for power-user Claude Code CLI usage -- hidden fla..."
+  default_prompt: "Use $claude-code-tricks to help with this workflow."
+policy:
+  allow_implicit_invocation: true

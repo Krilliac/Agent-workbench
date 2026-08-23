@@ -1,0 +1,6 @@
+interface:
+  display_name: "Msvc Error Decoder"
+  short_description: "Decode cryptic MSVC compiler and linker errors (C####, LNK###..."
+  default_prompt: "Use $msvc-error-decoder to help with this workflow."
+policy:
+  allow_implicit_invocation: true

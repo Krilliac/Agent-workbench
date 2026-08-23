@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill Linter"
+  short_description: "Validate one or many Claude Code SKILL.md files against Anthr..."
+  default_prompt: "Use $skill-linter to help with this workflow."
+policy:
+  allow_implicit_invocation: true

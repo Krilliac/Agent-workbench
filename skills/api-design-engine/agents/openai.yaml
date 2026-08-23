@@ -1,0 +1,6 @@
+interface:
+  display_name: "Api Design Engine"
+  short_description: "Design and review engine subsystem interfaces -- component vs..."
+  default_prompt: "Use $api-design-engine to help with this workflow."
+policy:
+  allow_implicit_invocation: true

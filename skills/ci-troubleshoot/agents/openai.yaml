@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ci Troubleshoot"
+  short_description: "Diagnose GitHub Actions Windows runner failures, cache misses..."
+  default_prompt: "Use $ci-troubleshoot to help with this workflow."
+policy:
+  allow_implicit_invocation: true

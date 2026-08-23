@@ -1,0 +1,43 @@
+# Assistant/runtime state
+.claude/
+.codex/
+auth.json
+*.sqlite
+*.sqlite-*
+*.db
+*.jsonl
+sessions/
+session-logs/
+history/
+memories/
+cache/
+generated_images/
+
+# Credentials and local configuration
+.credentials.json
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+settings.local.json
+config.local.*
+
+# Python and editor output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# Build and generated output
+build/
+out/
+dist/
+*.log
+*.tmp
+*.bak

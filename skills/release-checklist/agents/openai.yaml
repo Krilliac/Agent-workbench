@@ -1,0 +1,6 @@
+interface:
+  display_name: "Release Checklist"
+  short_description: "Cut a the engine release -- version bump, changelog, tag, bu..."
+  default_prompt: "Use $release-checklist to help with this workflow."
+policy:
+  allow_implicit_invocation: true

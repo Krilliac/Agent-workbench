@@ -1,0 +1,6 @@
+interface:
+  display_name: "Test Triage"
+  short_description: "For a given code diff, identify the minimum test set that mus..."
+  default_prompt: "Use $test-triage to help with this workflow."
+policy:
+  allow_implicit_invocation: true
