@@ -9,9 +9,15 @@ Reusable skills, agents, hooks, commands, and small diagnostic scripts for AI-as
 - `commands/` — command-oriented workflows that can be adapted to either assistant.
 - `hooks/` — optional PowerShell hooks for linting, session context, and local event logging.
 - `scripts/` — standalone Python and PowerShell utilities for repository analysis, build triage, fleet preflight, and skill scaffolding.
-- `docs/` — notes on safe configuration, shell behavior, verification, and multi-agent workflows.
+- `docs/` — notes on safe configuration, shell behavior, verification, multi-agent workflows, and adaptive model/effort routing.
 
 The material is intentionally tool-agnostic where possible. Paths and installation details use placeholders so the repository can be cloned on another machine without importing a personal home directory or runtime state.
+
+## Adaptive orchestration
+
+For substantial coding and unattended goal runs, start with [`docs/orchestration-policy.md`](docs/orchestration-policy.md) and the triggerable [`adaptive-orchestration`](skills/adaptive-orchestration/SKILL.md) skill. They define model/effort routing, ChatGPT/Codex workspace routing, visible escalation status, critic/red-team lanes, speculative parallelism, context checkpointing, and cheap-first verification.
+
+The shared-tree mechanics remain documented in [`docs/fleets.md`](docs/fleets.md) and [`parallel-fanout`](skills/parallel-fanout/SKILL.md).
 
 ## Install or adapt
 
