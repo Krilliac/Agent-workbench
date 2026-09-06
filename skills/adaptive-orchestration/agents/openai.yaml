@@ -1,0 +1,6 @@
+interface:
+  display_name: "Adaptive Orchestration"
+  short_description: "Route complex work across models, efforts, workspaces, and parallel workers."
+  default_prompt: "Use $adaptive-orchestration to route and execute this task efficiently."
+policy:
+  allow_implicit_invocation: true
